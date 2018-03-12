@@ -12,7 +12,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #f8c133;
+  border-color: #316126;
 }
 
 hr.light {
@@ -148,12 +148,12 @@ footer {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #ffa800;
+  color: #316126;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #ffa800 !important;
+  color: #316126 !important;
   background-color: transparent;
 }
 
@@ -183,7 +183,7 @@ footer {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #ffa800;
+    color: #316126;
   }
   #mainNav.navbar-shrink {
     border-bottom: 0;
@@ -194,7 +194,7 @@ footer {
     color: #39343A;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #ffa800;
+    color: #316126;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -202,7 +202,7 @@ footer {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #ffa800;
+    color: #316126;
   }
 }
 
@@ -226,13 +226,13 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
-  color: #FFC107;
-  text-shadow: 3px 3px 0 #000, 1px 1px 0 #000;
+  color: #316126;
+  text-shadow: 3px 3px 0 #fff, 1px 1px 0 #fff;
   font-weight: 300;
 }
 
 header.masthead h1 span {
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.37);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.57);
   font-weight: 500;
   color: white;
   display: block;
