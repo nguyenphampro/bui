@@ -208,10 +208,26 @@ footer {
 
 header.masthead {
   background-position: center center;
+  height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+header.masthead .owl-carousel, header.masthead .owl-stage-outer, header.masthead .owl-stage, header.masthead .owl-item {
+  height: 100%;
+}
+
+header.masthead .owl-carousel .item, header.masthead .owl-stage-outer .item, header.masthead .owl-stage .item, header.masthead .owl-item .item {
+  height: 100%;
+}
+
+header.masthead .owl-carousel .item .my-auto, header.masthead .owl-stage-outer .item .my-auto, header.masthead .owl-stage .item .my-auto, header.masthead .owl-item .item .my-auto {
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 header.masthead .owl-carousel .item .my-auto, header.masthead .owl-stage-outer .item .my-auto, header.masthead .owl-stage .item .my-auto, header.masthead .owl-item .item .my-auto {
@@ -224,14 +240,14 @@ header.masthead hr {
   border-color: #000;
 }
 
-header.masthead h1 {
+header.masthead h1, header.masthead h2 {
   font-size: 2rem;
   color: #316126;
   text-shadow: 3px 3px 0 #fff, 1px 1px 0 #fff;
   font-weight: 300;
 }
 
-header.masthead h1 span {
+header.masthead h1 span, header.masthead h2 span {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.57);
   font-weight: 500;
   color: white;
@@ -255,7 +271,6 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
@@ -272,20 +287,20 @@ header.masthead p {
     top: 50%;
     left: 50%;
   }
-  header.masthead h1 {
+  header.masthead h1, header.masthead h2 {
     font-size: 3.6rem;
   }
-  header.masthead h1 span {
+  header.masthead h1 span, header.masthead h2 span {
     font-size: 1.5rem;
     letter-spacing: 6px;
   }
 }
 
 @media (min-width: 1200px) {
-  header.masthead h1 {
+  header.masthead h1, header.masthead h2 {
     font-size: 5.6rem;
   }
-  header.masthead h1 span {
+  header.masthead h1 span, header.masthead h2 span {
     font-size: 2.5rem;
     letter-spacing: 8px;
   }
